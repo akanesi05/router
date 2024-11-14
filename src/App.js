@@ -22,13 +22,13 @@ function App() {
       </header>
     </div>
     <Switch >
-      <Route exact path="/"></Route>
+    <Route exact path="/" component={Home} />
       <Page1/>
 
-      <Route  path="/page1"></Route>
+      <Route  exact path="/page1"></Route>
       <Page1/>
 
-      <Route  path="/page2"></Route>
+      <Route path="/page2"  />
       <Page2/>
       
     </Switch>
